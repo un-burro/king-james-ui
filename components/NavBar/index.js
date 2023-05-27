@@ -1,5 +1,6 @@
 import styles from "./styles.module.css";
 import Image from "next/image";
+import CTAButton from "../CTAButton";
 
 
 export default function NavBar() {
@@ -40,10 +41,13 @@ export default function NavBar() {
 
                 <div className={styles.ctaContainer}>
     
-                    <a href="#">
+                    {/* <a href="#">
                         <button className={styles.ctaButton}>Let's Talk</button>
-                    </a>
-
+                    </a> */}
+                    <CTAButton title="Let's Talk"
+                               width="96px"
+                               height="37px"
+                               text_colour="var(--primary)" />
                 </div>
 
             </div>
