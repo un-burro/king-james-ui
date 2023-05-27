@@ -25,3 +25,41 @@
     align-items: flex-start;
     margin-bottom: 50px;
 }
+
+.projectsSection {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* align-items: flex-start; */
+    margin-top: 57px;
+    margin-bottom: 71px;
+}
+
+.box {
+
+    /* width: 256px; */
+    /* height: 120px; */
+    /* padding: 60px 128px; */
+    /* padding: 30px 64px; */
+    padding: 50px;
+    /* background-color: var(--active); */
+}
+
+.partnersHeader {
+
+    margin-top: 30px;
+    margin-bottom: 87px;
+}
+
+.brandsSection {
+
+    /* margin-top: 200px; */
+    display: grid;
+    /* justify-content: center; */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* gap: 120px; */
+    /* gap: 20px; */
+    /* align-items: center; */
+    margin-bottom: 87px;
+}
