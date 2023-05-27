@@ -1,0 +1,30 @@
+
+
+.tileContainer {
+
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    align-items: flex-start;
+}
+
+.imageContainer {
+
+    margin-bottom: 52px;
+}
+
+.titleContainer {
+
+    margin-bottom: 53px;
+}
+
+.title {
+
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.text {
+
+    font-size: 20px;
+}
