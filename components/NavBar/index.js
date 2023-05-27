@@ -18,6 +18,15 @@ export default function NavBar() {
 
                 </div>
 
+                <div className={styles.menuContainer}>
+
+                    <p className={styles.text}>Services</p>
+                    <p className={styles.text}>Industries</p>
+                    <p className={styles.text}>Cases</p>
+                    <p className={styles.text}>Contact</p>
+
+                </div>
+
             </div>
 
         </div>
