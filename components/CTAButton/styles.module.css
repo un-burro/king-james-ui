@@ -2,14 +2,10 @@
 
 .ctaButton {
     
-    /* background-color: #fff; */
     border: none;
     border-radius: 50px;
-    /* width: 96px; */
-    /* height: 37px; */
     font-size: 14px;
     font-weight: 700;
-    /* color: var(--primary); */
 }
 
 .ctaButton:hover {

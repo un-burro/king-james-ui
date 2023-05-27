@@ -15,10 +15,9 @@ export default function Hero() {
                 </div>
 
                 <div className={styles.copySection}>
-                    <p className={styles.text}>Jose Mourinho brings confidence to pan-African Sanlam campaign</p>
+                    <p className={styles.text}>José Mourinho brings confidence to pan-African Sanlam campaign.</p>
                 </div>
 
-                {/* <button type="button" className={styles.ctaButton}>View projects</button> */}
                 <CTAButton title="View projects"
                            colour="var(--primary)"
                            text_colour="#fff" />
