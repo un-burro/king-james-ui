@@ -1,4 +1,5 @@
 import styles from "./styles.module.css";
+import Line from "../Line";
 
 
 export default function ProjectCard({ image, title, description }) {
@@ -17,7 +18,7 @@ export default function ProjectCard({ image, title, description }) {
 
             <div className={styles.overlay}>
 
-                <div className={styles.line} />
+                <Line gap_bottom="16px" />
     
                 <div className={styles.titleContainer}>
 
