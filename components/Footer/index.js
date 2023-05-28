@@ -42,25 +42,25 @@ export default function Footer() {
 
                             <div className={styles.leftSocials}>
 
-                                <p className={styles.text}>Facebook</p>
-                                <p className={styles.text}>Instagram</p>
-                                <p className={styles.text}>Twitter</p>
+                                <a href="#"><p className={styles.text}>Facebook</p></a>
+                                <a href="#"><p className={styles.text}>Instagram</p></a>
+                                <a href="#"><p className={styles.text}>Twitter</p></a>
 
                             </div>
 
                             <div className={styles.middleSocials}>
 
-                                <p className={styles.text}>Gitbub</p>
-                                <p className={styles.text}>Linkedin</p>
-                                <p className={styles.text}>Teams</p>
+                                <a href="#"><p className={styles.text}>Gitbub</p></a>
+                                <a href="#"><p className={styles.text}>Linkedin</p></a>
+                                <a href="#"><p className={styles.text}>Teams</p></a>
 
                             </div>
 
                             <div className={styles.rightSocials}>
 
-                                <p className={styles.text}>Youtube</p>
-                                <p className={styles.text}>Behance</p>
-                                <p className={styles.text}>Dribble</p>
+                                <a href="#"><p className={styles.text}>Youtube</p></a>
+                                <a href="#"><p className={styles.text}>Behance</p></a>
+                                <a href="#"><p className={styles.text}>Dribble</p></a>
 
                             </div>
 
