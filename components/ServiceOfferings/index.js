@@ -2,11 +2,38 @@ import styles from "./styles.module.css";
 import SectionTag from "../SectionTag";
 import InfoTile from "../InfoTile";
 import ProjectCard from "../ProjectCard";
-import { services, projects, brands } from "../../public/constants";
+// import { services, projects, brands } from "../../public/constants";
+import { services, brands } from "../../public/constants";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 
 export default function ServiceOfferings() {
+
+    const [projects, setProjects] = useState([]);
+
+    useEffect(() => {
+
+      fetchProjects();
+
+    }, []);
+
+    async function fetchProjects() {
+
+        try {
+
+            const response = await fetch("/api/server");
+            const result = await response.json();
+            setProjects(result);
+            console.log("fetched:", result);
+
+        } catch (error) {
+
+            console.error("Error fetching projects:", error);
+
+        }
+
+    }
 
     return (
 
@@ -32,7 +59,7 @@ export default function ServiceOfferings() {
 
             <div className={styles.projectsSection}>
 
-                { projects.map((item, index) => <ProjectCard image={item.image}
+                { projects.map((item, index) => <ProjectCard image={item.imageUrl}
                                                              key={index}
                                                              title={item.title}
                                                              description={item.description} />) }
