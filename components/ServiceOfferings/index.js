@@ -25,7 +25,6 @@ export default function ServiceOfferings() {
             const response = await fetch("/api/server");
             const result = await response.json();
             setProjects(result);
-            console.log("fetched:", result);
 
         } catch (error) {
 
