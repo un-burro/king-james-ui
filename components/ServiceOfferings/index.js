@@ -1,22 +1,31 @@
 import styles from "./styles.module.css";
+import Image from "next/image";
+import { useEffect, useState } from "react";
 import SectionTag from "../SectionTag";
 import InfoTile from "../InfoTile";
 import ProjectCard from "../ProjectCard";
+import Spinner from "../Spinner";
 // import { services, projects, brands } from "../../public/constants";
 import { services, brands } from "../../public/constants";
-import Image from "next/image";
-import { useEffect, useState } from "react";
 
 
 export default function ServiceOfferings() {
 
     const [projects, setProjects] = useState([]);
+    const [loading, setLoading] = useState(false);
 
     useEffect(() => {
 
       fetchProjects();
 
     }, []);
+
+    useEffect(() => {
+     
+        if (projects.length > 0) setLoading(false); 
+        else setLoading(true);
+
+    }, [projects]);
 
     async function fetchProjects() {
 
@@ -58,10 +67,14 @@ export default function ServiceOfferings() {
 
             <div className={styles.projectsSection}>
 
-                { projects.map((item, index) => <ProjectCard image={item.imageUrl}
-                                                             key={index}
-                                                             title={item.title}
-                                                             description={item.description} />) }
+                { loading ?  <div className={styles.spinnerContainer}>
+                                <Spinner />
+                            </div> : 
+                            
+                            projects.map((item, index) => <ProjectCard image={item.imageUrl}
+                                                                       key={index}
+                                                                       title={item.title}
+                                                                       description={item.description} />) }
 
             </div>
 
@@ -79,10 +92,7 @@ export default function ServiceOfferings() {
                                                     <Image src={item.image}
                                                            width={256}
                                                            height={120} />
-                                                           {/* sizes="100vw"
-                                                           style={{ width: "100%", height: "auto" }} />
-                                                           style={{ width: "100%", height: "auto" }} /> */}
-                                               
+                                                
                                                </div> ) }
 
             </div>
