@@ -19,29 +19,15 @@
 
 .ctaContainer {
 
-    /* margin-top: 34px; */
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-/* .leftContainer {
-
-} */
 
 .leftSection {
 
-    /* margin-top: 91px; */
     margin-top: 108px;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: flex-start; */
-}
-
-.rightContainer {
-
-    /* margin-top: 34px; */
-    /* margin-top: 91px; */
 }
 
 .ctaSection {
@@ -74,18 +60,9 @@
     text-decoration: underline;
 }
 
-/* .socialsContainer {
-
-    margin-top: 91px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-} */
-
 .leftSection {
 
     display: flex;
-    /* background-color: red; */
 }
 
 .termsSection {

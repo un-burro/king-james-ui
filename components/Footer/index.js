@@ -13,8 +13,7 @@ export default function Footer() {
 
             <div className={styles.outerContainer}>
 
-                {/* <div className={styles.leftContainer}> */}
-                <div>
+                <div className={styles.leftContainer}>
 
                     <div className={styles.ctaContainer}>
 
@@ -28,7 +27,6 @@ export default function Footer() {
                     </div>
 
                     <div className={styles.leftSection}>
-                    {/* <div className={styles.termsSection}> */}
 
                         <div className={styles.termsSection}>
 
@@ -42,25 +40,49 @@ export default function Footer() {
 
                             <div className={styles.leftSocials}>
 
-                                <a href="#"><p className={styles.text}>Facebook</p></a>
-                                <a href="#"><p className={styles.text}>Instagram</p></a>
-                                <a href="#"><p className={styles.text}>Twitter</p></a>
+                                <a href="#">
+                                    <p className={styles.text}>Facebook</p>
+                                </a>
+
+                                <a href="#">
+                                    <p className={styles.text}>Instagram</p>
+                                </a>
+
+                                <a href="#">
+                                    <p className={styles.text}>Twitter</p>
+                                </a>
 
                             </div>
 
                             <div className={styles.middleSocials}>
 
-                                <a href="#"><p className={styles.text}>Gitbub</p></a>
-                                <a href="#"><p className={styles.text}>Linkedin</p></a>
-                                <a href="#"><p className={styles.text}>Teams</p></a>
+                                <a href="#">
+                                    <p className={styles.text}>Gitbub</p>
+                                </a>
+                                
+                                <a href="#">
+                                    <p className={styles.text}>Linkedin</p>
+                                </a>
+                                
+                                <a href="#">
+                                    <p className={styles.text}>Teams</p>
+                                </a>
 
                             </div>
 
                             <div className={styles.rightSocials}>
 
-                                <a href="#"><p className={styles.text}>Youtube</p></a>
-                                <a href="#"><p className={styles.text}>Behance</p></a>
-                                <a href="#"><p className={styles.text}>Dribble</p></a>
+                                <a href="#">
+                                    <p className={styles.text}>Youtube</p>
+                                </a>
+                                
+                                <a href="#">
+                                    <p className={styles.text}>Behance</p>
+                                </a>
+                                
+                                <a href="#">
+                                    <p className={styles.text}>Dribble</p>
+                                </a>
 
                             </div>
 
