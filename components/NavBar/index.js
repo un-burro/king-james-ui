@@ -42,8 +42,8 @@ export default function NavBar() {
                 <div className={styles.ctaContainer}>
     
                     <CTAButton title="Let's Talk"
-                               width="96px"
-                               height="37px"
+                               width="6rem"
+                               height="2.3125rem"
                                text_colour="var(--primary)" />
                 </div>
 

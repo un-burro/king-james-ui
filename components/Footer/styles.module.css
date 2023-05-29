@@ -3,18 +3,29 @@
 .footerContainer {
 
     width: 100%;
-    height: 500px;
+    height: 31.25rem;
     background-color: var(--primary);
-    padding: 71px 79px;
+    padding: 4.4375rem 4.9375rem;
 }
 
 .outerContainer {
 
-    margin-top: 34px;
+    margin-top: 2.125rem;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+.columnSpacing {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.socialsBoxHeight {
+
+    height: 6.25rem;
 }
 
 .ctaContainer {
@@ -27,31 +38,25 @@
 
 .leftSection {
 
-    margin-top: 108px;
+    margin-top: 6.75rem;
 }
 
 .ctaSection {
 
-    height: 112px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    height: 7rem;
     align-items: flex-start;
 }
 
 .ctaText {
 
     color: #fff;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 
 .contactSection {
 
-    height: 129px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    height: 8.0625rem;
     align-items: flex-start;
 }
 
@@ -65,58 +70,22 @@
     display: flex;
 }
 
-.termsSection {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100px;
-}
-
 .socialsSection {
 
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    width: 550px;
-    padding-left: 65px;
-}
-
-.leftSocials {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100px;
-}
-
-.middleSocials {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100px;
-}
-
-.rightSocials {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100px;
+    width: 34.375rem;
+    padding-left: 4.0625rem;
 }
 
 .exploreSection {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100px;
-    margin-top: 91px;
+    
+    margin-top: 5.6875rem;
 }
 
 .text {
 
     color: #fff;
-    font-size: 20px;
+    font-size: 1.25rem;
 }

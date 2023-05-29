@@ -4,27 +4,27 @@
 
     display: flex;
     flex-direction: column;
-    width: 290px;
+    width: 18.125rem;
     align-items: flex-start;
 }
 
 .imageContainer {
 
-    margin-bottom: 52px;
+    margin-bottom: 3.25rem;
 }
 
 .titleContainer {
 
-    margin-bottom: 53px;
+    margin-bottom: 3.3125rem;
 }
 
 .title {
 
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .text {
 
-    font-size: 20px;
+    font-size: 1.25rem;
 }

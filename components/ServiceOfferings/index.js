@@ -48,7 +48,7 @@ export default function ServiceOfferings() {
         <div className={styles.servicesContainer}>
 
             <SectionTag title="What we do"
-                        size="24px" />
+                        size="1.5rem" />
 
             <div className={styles.header}>
                 <p className={styles.heading}>We offer a complete range of bespoke design and development services to help you turn your ideas into digital masterpieces</p>

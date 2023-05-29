@@ -18,7 +18,7 @@ export default function ProjectCard({ image, title, description }) {
 
             <div className={styles.overlay}>
 
-                <Line gap_bottom="16px" />
+                <Line gap_bottom="1rem" />
     
                 <div className={styles.titleContainer}>
 

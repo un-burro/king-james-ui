@@ -17,7 +17,8 @@ export default function Footer() {
 
                     <div className={styles.ctaContainer}>
 
-                        <div className={styles.ctaSection}>
+                        <div className={`${styles.columnSpacing} 
+                                         ${styles.ctaSection}`}>
 
                             <p className={styles.ctaText}>Have a project in mind?</p> 
                             <p className={styles.ctaText}>Let's make it happen</p>
@@ -28,7 +29,8 @@ export default function Footer() {
 
                     <div className={styles.leftSection}>
 
-                        <div className={styles.termsSection}>
+                        <div className={`${styles.columnSpacing} 
+                                         ${styles.socialsBoxHeight}`}>
 
                             <p className={styles.text}>Terms of service</p>
                             <p className={styles.text}>Privacy policy</p>
@@ -38,7 +40,8 @@ export default function Footer() {
 
                         <div className={styles.socialsSection}>
 
-                            <div className={styles.leftSocials}>
+                            <div className={`${styles.columnSpacing} 
+                                             ${styles.socialsBoxHeight}`}>
 
                                 <a href="#">
                                     <p className={styles.text}>Facebook</p>
@@ -54,7 +57,8 @@ export default function Footer() {
 
                             </div>
 
-                            <div className={styles.middleSocials}>
+                            <div className={`${styles.columnSpacing} 
+                                             ${styles.socialsBoxHeight}`}>
 
                                 <a href="#">
                                     <p className={styles.text}>Gitbub</p>
@@ -70,7 +74,8 @@ export default function Footer() {
 
                             </div>
 
-                            <div className={styles.rightSocials}>
+                            <div className={`${styles.columnSpacing} 
+                                             ${styles.socialsBoxHeight}`}>
 
                                 <a href="#">
                                     <p className={styles.text}>Youtube</p>
@@ -94,7 +99,8 @@ export default function Footer() {
 
                 <div className={styles.rightContainer}>
 
-                    <div className={styles.contactSection}>
+                    <div className={`${styles.columnSpacing} 
+                                     ${styles.contactSection}`}>
 
                         <p className={styles.text}>22 Lawley Road, Woodstock, 7925,</p>
                         <p className={styles.text}>Cape Town, South Africa</p>
@@ -103,7 +109,9 @@ export default function Footer() {
 
                     </div>
 
-                    <div className={styles.exploreSection}>
+                    <div className={`${styles.columnSpacing} 
+                                     ${styles.socialsBoxHeight} 
+                                     ${styles.exploreSection}`}>
 
                         <p className={styles.text}>Explore open jobs</p>
                         <p className={styles.text}>&copy;2000&mdash;2022 King James Digital</p>

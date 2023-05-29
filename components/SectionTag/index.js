@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 import Line from "../Line";
 
 
-export default function SectionTag({ title, colour = "#000", size = "20px" }) {
+export default function SectionTag({ title, colour = "#000", size = "1.25rem" }) {
 
     const textStyling = { color: colour, 
                           fontSize: size, };
@@ -11,7 +11,7 @@ export default function SectionTag({ title, colour = "#000", size = "20px" }) {
 
         <div className={styles.tagContainer}>
 
-            <Line gap_right="20px" />
+            <Line gap_right="1.25rem" />
 
             <div>
 

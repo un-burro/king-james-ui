@@ -2,7 +2,7 @@
 .heroContainer {
 
     width: 100%;
-    height: 800px;
+    height: 50rem;
     position: relative;
     background-size: cover;
     background-image: url("/assets/images/confidence.jpeg");
@@ -17,29 +17,29 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 0 0 86px 80px;
+    padding: 0 0 5.375rem 5rem;
 }
 
 .headingSection {
 
-    margin-bottom: 28px;
+    margin-bottom: 1.75rem;
 }
 
 .copySection {
 
-    margin-bottom: 47px;
-    width: 573.75px;
+    margin-bottom: 2.9375rem;
+    width: 35.859375rem;
 }
 
 .heading {
 
     color: #fff;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
 }    
 
 .text {
 
     color: #fff;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
