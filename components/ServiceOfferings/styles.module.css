@@ -1,0 +1,62 @@
+
+
+.servicesContainer {
+
+    padding: 84px 85px;
+}
+
+.header {
+
+    margin-top: 46px;
+    margin-bottom: 54px;
+    width: 81.6%;
+}
+
+.heading {
+
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offeringsSection {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.projectsSection {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 57px;
+    margin-bottom: 71px;
+}
+
+.spinnerContainer {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box {
+
+    padding: 50px;
+}
+
+.partnersHeader {
+
+    margin-top: 30px;
+    margin-bottom: 87px;
+}
+
+.brandsSection {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(289px, 1fr));
+    margin-bottom: 87px;
+}

@@ -1,0 +1,14 @@
+
+
+.ctaButton {
+    
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.ctaButton:hover {
+
+    cursor: pointer;
+}
