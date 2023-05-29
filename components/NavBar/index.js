@@ -14,8 +14,8 @@ export default function NavBar() {
                 <a href="#">
 
                     <Image src="/assets/icons/logo_KJD.svg"
-                            width={53.29}
-                            height={32} />
+                           width={53.29}
+                           height={32} />
 
                 </a>
 
@@ -41,9 +41,6 @@ export default function NavBar() {
 
                 <div className={styles.ctaContainer}>
     
-                    {/* <a href="#">
-                        <button className={styles.ctaButton}>Let's Talk</button>
-                    </a> */}
                     <CTAButton title="Let's Talk"
                                width="96px"
                                height="37px"

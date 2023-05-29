@@ -71,7 +71,6 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100px;
-    /* flex: 1; */
 }
 
 .socialsSection {
@@ -79,10 +78,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    /* width: 100%; */
     width: 550px;
-    /* flex: 1; */
-    /* padding: 0 65px; */
     padding-left: 65px;
 }
 
@@ -116,7 +112,6 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100px;
-    /* flex: 1; */
     margin-top: 91px;
 }
 
@@ -124,5 +119,4 @@
 
     color: #fff;
     font-size: 20px;
-    /* font-size: 1.25rem; */
 }
