@@ -8,5 +8,5 @@
     "Venti": 4.95
   },
   "temperatures": ["Hot", "Iced"],
-  "image": "https://example.com/images/caffe-latte.jpg"
+  "image": "https://raw.githubusercontent.com/Salim-Ali-94/king-james-ui/refs/heads/main/data/starbucks/0.png"
 }
