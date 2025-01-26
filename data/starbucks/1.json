@@ -8,5 +8,5 @@
     "Venti": 5.25
   },
   "temperatures": ["Hot", "Iced"],
-  "image": "https://example.com/images/caramel-macchiato.jpg"
+  "image": "https://raw.githubusercontent.com/Salim-Ali-94/king-james-ui/refs/heads/main/data/starbucks/1.png"
 }
