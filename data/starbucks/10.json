@@ -1,0 +1,13 @@
+{
+  "name": "Pink Drink",
+  "description": "A delicious combination of Strawberry Açaí Refresher with coconut milk and freeze-dried strawberries.",
+  "sizes": ["Tall", "Grande", "Venti", "Trenta"],
+  "prices": {
+    "Tall": 4.25,
+    "Grande": 4.75,
+    "Venti": 5.25,
+    "Trenta": 5.75
+  },
+  "temperatures": ["Cold"],
+  "image": "https://example.com/images/pink-drink.jpg"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Mocha",
+  "description": "Espresso combined with steamed milk and mocha sauce, topped with whipped cream.",
+  "sizes": ["Tall", "Grande", "Venti"],
+  "prices": {
+    "Tall": 4.45,
+    "Grande": 4.95,
+    "Venti": 5.45
+  },
+  "temperatures": ["Hot", "Iced"],
+  "image": "https://example.com/images/mocha.jpg"
+}

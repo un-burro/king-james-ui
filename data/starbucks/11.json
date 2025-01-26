@@ -1,0 +1,12 @@
+{
+  "name": "Iced Matcha Latte",
+  "description": "Matcha green tea mixed with milk and served over ice for a refreshing drink.",
+  "sizes": ["Tall", "Grande", "Venti"],
+  "prices": {
+    "Tall": 4.75,
+    "Grande": 5.25,
+    "Venti": 5.75
+  },
+  "temperatures": ["Cold"],
+  "image": "https://example.com/images/iced-matcha-latte.jpg"
+}

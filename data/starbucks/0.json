@@ -1,0 +1,12 @@
+{
+  "name": "Caffè Latte",
+  "description": "Rich, full-bodied espresso with steamed milk and a light layer of foam.",
+  "sizes": ["Tall", "Grande", "Venti"],
+  "prices": {
+    "Tall": 3.95,
+    "Grande": 4.45,
+    "Venti": 4.95
+  },
+  "temperatures": ["Hot", "Iced"],
+  "image": "https://example.com/images/caffe-latte.jpg"
+}

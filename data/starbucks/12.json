@@ -1,0 +1,12 @@
+{
+  "name": "Nitro Cold Brew",
+  "description": "Cold brew coffee infused with nitrogen for a smooth, creamy texture without cream.",
+  "sizes": ["Tall", "Grande", "Venti"],
+  "prices": {
+    "Tall": 4.75,
+    "Grande": 5.25,
+    "Venti": 5.75
+  },
+  "temperatures": ["Cold"],
+  "image": "https://example.com/images/nitro-cold-brew.jpg"
+}

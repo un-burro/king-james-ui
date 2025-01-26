@@ -1,0 +1,13 @@
+{
+  "name": "Cold Brew Coffee",
+  "description": "Slow-steeped, ultra-smooth coffee served cold.",
+  "sizes": ["Tall", "Grande", "Venti", "Trenta"],
+  "prices": {
+    "Tall": 3.75,
+    "Grande": 4.25,
+    "Venti": 4.75,
+    "Trenta": 5.25
+  },
+  "temperatures": ["Cold"],
+  "image": "https://example.com/images/cold-brew.jpg"
+}

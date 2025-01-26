@@ -1,0 +1,13 @@
+{
+  "name": "Iced Coffee",
+  "description": "Brewed coffee served over ice for a refreshing and chilled experience.",
+  "sizes": ["Tall", "Grande", "Venti", "Trenta"],
+  "prices": {
+    "Tall": 3.5,
+    "Grande": 3.95,
+    "Venti": 4.45,
+    "Trenta": 4.95
+  },
+  "temperatures": ["Cold"],
+  "image": "https://example.com/images/iced-coffee.jpg"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Matcha Tea Latte",
+  "description": "Smooth and creamy matcha sweetened just right and served with steamed milk.",
+  "sizes": ["Tall", "Grande", "Venti"],
+  "prices": {
+    "Tall": 4.45,
+    "Grande": 4.95,
+    "Venti": 5.45
+  },
+  "temperatures": ["Hot", "Iced"],
+  "image": "https://example.com/images/matcha-latte.jpg"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Strawberry Açaí Refresher",
+  "description": "A refreshing beverage with açaí, strawberry, and green coffee extract.",
+  "sizes": ["Tall", "Grande", "Venti", "Trenta"],
+  "prices": {
+    "Tall": 3.95,
+    "Grande": 4.45,
+    "Venti": 4.95,
+    "Trenta": 5.45
+  },
+  "temperatures": ["Cold"],
+  "image": "https://example.com/images/strawberry-acai.jpg"
+}

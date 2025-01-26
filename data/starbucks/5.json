@@ -1,0 +1,12 @@
+{
+  "name": "Flat White",
+  "description": "Ristretto shots of espresso combined with steamed whole milk, creating a smooth, velvety texture.",
+  "sizes": ["Tall", "Grande", "Venti"],
+  "prices": {
+    "Tall": 4.25,
+    "Grande": 4.75,
+    "Venti": 5.25
+  },
+  "temperatures": ["Hot"],
+  "image": "https://example.com/images/flat-white.jpg"
+}

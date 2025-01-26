@@ -1,0 +1,12 @@
+{
+  "name": "Caramel Macchiato",
+  "description": "Freshly steamed milk with vanilla-flavored syrup, marked with espresso and caramel drizzle.",
+  "sizes": ["Tall", "Grande", "Venti"],
+  "prices": {
+    "Tall": 4.25,
+    "Grande": 4.75,
+    "Venti": 5.25
+  },
+  "temperatures": ["Hot", "Iced"],
+  "image": "https://example.com/images/caramel-macchiato.jpg"
+}

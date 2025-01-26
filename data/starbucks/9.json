@@ -1,0 +1,13 @@
+{
+  "name": "Vanilla Sweet Cream Cold Brew",
+  "description": "Cold brew coffee topped with a float of house-made vanilla sweet cream.",
+  "sizes": ["Tall", "Grande", "Venti", "Trenta"],
+  "prices": {
+    "Tall": 4.75,
+    "Grande": 5.25,
+    "Venti": 5.75,
+    "Trenta": 6.25
+  },
+  "temperatures": ["Cold"],
+  "image": "https://example.com/images/vanilla-sweet-cream-cold-brew.jpg"
+}

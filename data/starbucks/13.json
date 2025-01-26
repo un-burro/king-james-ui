@@ -1,0 +1,12 @@
+{
+  "name": "Caramel Frappuccino",
+  "description": "Blended iced coffee with caramel syrup, topped with whipped cream and caramel drizzle.",
+  "sizes": ["Tall", "Grande", "Venti"],
+  "prices": {
+    "Tall": 4.95,
+    "Grande": 5.45,
+    "Venti": 5.95
+  },
+  "temperatures": ["Cold"],
+  "image": "https://example.com/images/caramel-frappuccino.jpg"
+}
