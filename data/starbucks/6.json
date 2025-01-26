@@ -8,5 +8,5 @@
     "Venti": 5.45
   },
   "temperatures": ["Hot", "Iced"],
-  "image": "https://example.com/images/mocha.jpg"
+  "image": "https://raw.githubusercontent.com/Salim-Ali-94/king-james-ui/refs/heads/main/data/starbucks/6.png"
 }
