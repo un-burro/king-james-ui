@@ -8,6 +8,6 @@
     "Venti": 5.25
   },
   "temperatures": ["Hot", "Iced"],
-  "image": "https://raw.githubusercontent.com/Salim-Ali-94/king-james-ui/refs/heads/main/data/starbucks/13.png".
+  "image": "https://raw.githubusercontent.com/Salim-Ali-94/king-james-ui/refs/heads/main/data/starbucks/13.png",
   "rating": 2.7
 }
