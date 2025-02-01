@@ -9,5 +9,6 @@
     "Trenta": 5.25
   },
   "temperatures": ["Cold"],
-  "image": "https://raw.githubusercontent.com/Salim-Ali-94/king-james-ui/refs/heads/main/data/starbucks/2.png"
+  "image": "https://raw.githubusercontent.com/Salim-Ali-94/king-james-ui/refs/heads/main/data/starbucks/2.png",
+  "rating": 2.4
 }
